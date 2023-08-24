@@ -13,7 +13,8 @@
 
 /* Width of the whole page */
 .header,
-.hero {
+.hero,
+.informations {
     width: 1050px
 }
 
@@ -81,4 +82,38 @@
 
 .righthero {
     flex: 1;
+}
+
+.informationcontainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.informationtitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin: 50px 0px;
+}
+
+.informations {
+    display: flex;
+    justify-content:space-around;
+}
+
+.information {
+    width: 200px;
+}
+
+.informationimage {
+    width: 200px;
+    height: 200px;
+}
+
+.informationsubtext {
+    text-align: center;
+    font-size: 18px;
+    color: #636C78;
 }
