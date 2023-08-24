@@ -3,3 +3,29 @@
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.headercontainer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 25px;
+}
