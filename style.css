@@ -14,7 +14,8 @@
 /* Width of the whole page */
 .header,
 .hero,
-.informations {
+.informations,
+.quote {
     width: 1050px
 }
 
@@ -116,4 +117,28 @@
     text-align: center;
     font-size: 18px;
     color: #636C78;
+}
+
+.quotecontainer {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote {
+    justify-content: center;
+    width: 950px;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    color: #1F2937;
+}
+
+.quoteauthor {
+    float: right;
+    font-weight: bold;
 }
