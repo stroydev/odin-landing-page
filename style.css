@@ -177,3 +177,22 @@
     padding: 7px 30px;
     border: 2px solid white;
 }
+
+.footercontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.copyright {
+    color: #E5E7EB;
+}
