@@ -22,6 +22,7 @@
 
 /* Border radius */
 .herobutton,
+.informationimage,
 .calltoaction,
 .calltoactionbutton {
     border-radius: 10px;
